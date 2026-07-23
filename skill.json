@@ -1,0 +1,31 @@
+{
+  "name": "genpark-proactive-goal-driven-agent-team-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Proactive goal-driven multi-agent team orchestration and execution engine.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "agent-team",
+    "proactive",
+    "goal-driven",
+    "ph-july23"
+  ],
+  "inputs": {
+    "high_level_goal": {
+      "type": "string"
+    },
+    "team_roles": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "team_tasks": {
+      "type": "array"
+    },
+    "progress": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
